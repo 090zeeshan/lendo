@@ -48,7 +48,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({containerStyle}) => {
           </View>
         </View>
 
-        <View style={{height: 220}}>
+        <View style={styles.chartContaineir}>
           <PortfolioChart />
         </View>
 

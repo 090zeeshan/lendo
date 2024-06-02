@@ -82,4 +82,5 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   portfolioHeader: {flexDirection: 'row', justifyContent: 'space-between'},
+  chartContaineir: {height: 220},
 });

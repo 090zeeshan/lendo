@@ -1,9 +1,6 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text} from 'react-native';
 import {styles} from './info.styles';
-import SimpleLineIcon from 'react-native-vector-icons/SimpleLineIcons';
-import IoniCons from 'react-native-vector-icons/Ionicons';
-import {theme} from '../../theme/theme';
 
 interface InfoProps {
   title: string;

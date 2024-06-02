@@ -14,6 +14,7 @@ import {
 import {FeatureList} from '../../component/feature-list/FeatureList';
 import {LendoScreen} from '../../component/lendo-screen/LendoScreen';
 import {LendoStatusBar} from '../../component/lendo-status-bar/LendoStatusBar';
+import {IMG_PROFILE} from '../../../asset/image';
 
 const FEATURES = [
   {title: 'Auto Invest', icon: IC_AUTO_INVEST},
@@ -30,7 +31,7 @@ export const Home = () => {
       <ScrollView showsVerticalScrollIndicator={false}>
         <LendoStatusBar />
         <View style={styles.userInfoContainer}>
-          <UserInfo />
+          <UserInfo name="Mary Doe" image={IMG_PROFILE} />
         </View>
 
         <Portfolio containerStyle={styles.portfolioContainer} />
